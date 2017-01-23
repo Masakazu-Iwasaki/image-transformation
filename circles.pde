@@ -41,45 +41,6 @@ void setup() {
     }
   }
 
-  //ArrayList<Circle> notused = new ArrayList<Circle>(circles);
-  //println("so far so good");
-  //for (int i = 0; i < hedgehog.pixels.length; i++ ) {
-  //  if ( i % 1000 == 0 ) {
-  //  }
-
-  //  int column = i % width;
-  //  int row = floor(i / width );
-
-  //  if (row % d == 0 && row != 0 && column % d == 0 && column != 0 ) {
-
-  //    color a = hedgehog.pixels[i];
-  //    float a_r = red(a);
-  //    float a_g = green(a);
-  //    float a_b = blue(a);
-  //    float lowest = 10000000;
-  //    Circle current = new Circle(new PVector(0, 0), color(0), 5);
-
-  //    for (Circle c : notused) {
-
-
-  //      color b = c.c;
-  //      float b_r = red(b);
-  //      float b_g = green(b);
-  //      float b_b = blue(b);
-
-  //      float val = sqrt(pow(b_r - a_r, 2) + pow(b_g - a_g, 2) + pow(b_b - a_b, 2));
-  //      if ( val < lowest) {
-  //        lowest = val;
-  //        current = c;
-  //      }
-  //    }
-  //    current.loc2 = new PVector(column, row);
-  //    notused.remove(current);
-  //    println(notused.size());
-  //  }
-  //}
-
-
   ArrayList<Circle> notused = new ArrayList<Circle>(circles); //Create an ArrayList called notused, that is a copy of circles
 
   while (ps.size() > 0 ) { //while there are still items in the ps ArrayList
